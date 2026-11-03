@@ -1,9 +1,13 @@
 # Module 1 — Introduction to DevOps
 
 > **Course:** DevOps
+> 
 > **Module:** 1 — Introduction to DevOps
+> 
 > **Type:** Introductory and conceptual
+> 
 > **Scope:** Theory, explanations, comparisons and block diagrams. Hands-on work (Linux, Git, Docker, cloud, Kubernetes, Terraform, CI/CD tools) is covered in later modules.
+> 
 > **Estimated study time:** about 25 minutes of lecture, plus self-study of this document
 
 ---
@@ -767,7 +771,6 @@ Tools change over time. **Concepts matter more than any single tool.**
 | 10 | Terraform & Ansible | Infrastructure as Code and configuration management |
 | 11 | CI/CD | Building and managing pipelines |
 
-*(Follow the order in your course player; this table is a suggested path.)*
 
 ---
 
@@ -807,60 +810,144 @@ Tools change over time. **Concepts matter more than any single tool.**
 
 # 13. Interview Questions and Answers
 
+Each question is shown below in a readable format. A plain-text, copy-and-paste version of the full list is available at the end of this section.
+
 **Q1. What is DevOps?**
+
 A set of cultural practices, processes and tools that bring development and operations together to improve collaboration and automate software delivery, so releases are faster and more reliable.
 
 **Q2. Is DevOps a tool?**
+
 No. It is a culture and set of practices. Tools such as Git, Docker, Jenkins, GitHub Actions, Terraform and Ansible support DevOps workflows.
 
 **Q3. What are the main objectives of DevOps?**
+
 Speed, reliability and scalability, supported by collaboration, automation, quality, agility, fast feedback and continuous improvement.
 
 **Q4. What problem does DevOps solve?**
+
 It removes the silos and manual hand-offs between Dev and Ops that cause delays, errors and the "it works on my machine" problem.
 
 **Q5. What is the SDLC, and does DevOps replace it?**
+
 The SDLC describes the stages of planning, building, testing, releasing and maintaining software. DevOps does not replace it; it improves collaboration and automation across those stages.
 
 **Q6. What is Continuous Integration?**
+
 Frequently merging code into a shared repository and validating each change with automated builds and tests.
 
 **Q7. What is the difference between Continuous Delivery and Continuous Deployment?**
+
 Continuous Delivery keeps validated changes ready to release, usually with manual production approval. Continuous Deployment releases every passing change to production automatically.
 
 **Q8. What is a pipeline?**
+
 An automated sequence of steps (build, test, package, deploy) that every code change passes through.
 
 **Q9. What is a container?**
+
 An isolated application runtime that shares the host OS kernel and packages the app with the dependencies it needs.
 
 **Q10. What is the difference between a VM and a container?**
+
 A VM runs its own guest OS on virtualized hardware (heavier, slower to start, strong isolation). A container shares the host kernel (lightweight, fast, portable).
 
 **Q11. What is cloud computing, and why is it important for DevOps?**
+
 It provides on-demand compute, storage, databases and networking over a network. It lets teams create environments quickly through APIs, scale elastically, and automate infrastructure.
 
 **Q12. Name the three major cloud providers.**
+
 AWS, Microsoft Azure and Google Cloud Platform (GCP).
 
 **Q13. Why is scripting important in DevOps?**
+
 It automates repetitive tasks (patching, backups, log management, deployment checks, health checks), reduces human error and serves as executable documentation.
 
 **Q14. What is configuration management?**
+
 Defining and maintaining the desired configuration of systems consistently. Tools include Ansible, Puppet, Chef and Salt.
 
 **Q15. What is Ansible?**
+
 An agentless automation tool for configuration management, deployment and orchestration, using YAML playbooks.
 
 **Q16. What is Infrastructure as Code?**
+
 Managing infrastructure through versioned code files instead of manual console work, so it is repeatable and reviewable.
 
 **Q17. What is configuration drift?**
+
 When systems gradually differ from their intended configuration because of manual or untracked changes.
 
 **Q18. How do you measure DevOps success?**
+
 Using DORA metrics: deployment frequency, lead time for changes, change failure rate and time to restore service.
 
+<details>
+<summary><strong>📋 Copy-paste version (plain text, click to expand)</strong></summary>
+
+<br>
+
+Use the copy button at the top right of the block below.
+
+```text
+Q1. What is DevOps?
+A: A set of cultural practices, processes and tools that bring development and operations together to improve collaboration and automate software delivery, so releases are faster and more reliable.
+
+Q2. Is DevOps a tool?
+A: No. It is a culture and set of practices. Tools such as Git, Docker, Jenkins, GitHub Actions, Terraform and Ansible support DevOps workflows.
+
+Q3. What are the main objectives of DevOps?
+A: Speed, reliability and scalability, supported by collaboration, automation, quality, agility, fast feedback and continuous improvement.
+
+Q4. What problem does DevOps solve?
+A: It removes the silos and manual hand-offs between Dev and Ops that cause delays, errors and the "it works on my machine" problem.
+
+Q5. What is the SDLC, and does DevOps replace it?
+A: The SDLC describes the stages of planning, building, testing, releasing and maintaining software. DevOps does not replace it; it improves collaboration and automation across those stages.
+
+Q6. What is Continuous Integration?
+A: Frequently merging code into a shared repository and validating each change with automated builds and tests.
+
+Q7. What is the difference between Continuous Delivery and Continuous Deployment?
+A: Continuous Delivery keeps validated changes ready to release, usually with manual production approval. Continuous Deployment releases every passing change to production automatically.
+
+Q8. What is a pipeline?
+A: An automated sequence of steps (build, test, package, deploy) that every code change passes through.
+
+Q9. What is a container?
+A: An isolated application runtime that shares the host OS kernel and packages the app with the dependencies it needs.
+
+Q10. What is the difference between a VM and a container?
+A: A VM runs its own guest OS on virtualized hardware (heavier, slower to start, strong isolation). A container shares the host kernel (lightweight, fast, portable).
+
+Q11. What is cloud computing, and why is it important for DevOps?
+A: It provides on-demand compute, storage, databases and networking over a network. It lets teams create environments quickly through APIs, scale elastically, and automate infrastructure.
+
+Q12. Name the three major cloud providers.
+A: AWS, Microsoft Azure and Google Cloud Platform (GCP).
+
+Q13. Why is scripting important in DevOps?
+A: It automates repetitive tasks (patching, backups, log management, deployment checks, health checks), reduces human error and serves as executable documentation.
+
+Q14. What is configuration management?
+A: Defining and maintaining the desired configuration of systems consistently. Tools include Ansible, Puppet, Chef and Salt.
+
+Q15. What is Ansible?
+A: An agentless automation tool for configuration management, deployment and orchestration, using YAML playbooks.
+
+Q16. What is Infrastructure as Code?
+A: Managing infrastructure through versioned code files instead of manual console work, so it is repeatable and reviewable.
+
+Q17. What is configuration drift?
+A: When systems gradually differ from their intended configuration because of manual or untracked changes.
+
+Q18. How do you measure DevOps success?
+A: Using DORA metrics: deployment frequency, lead time for changes, change failure rate and time to restore service.
+```
+
+</details>
 ---
 
 # 14. Self-Check Quiz
