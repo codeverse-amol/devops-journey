@@ -209,34 +209,88 @@ The Big Three in cloud computing.
 ## 8. DevOps Interview Questions & Answers
 
 **Q1: What is Cloud Computing?**
+
 Delivery of computing services over the internet with on-demand access and pay-as-you-use pricing.
 
 **Q2: Why is cloud important for DevOps?**
+
 It provides scalable infrastructure, automation support and CI/CD integration essential for DevOps.
 
 **Q3: Difference between IaaS, PaaS and SaaS?**
+
 IaaS = infrastructure, PaaS = development platform, SaaS = ready-to-use software.
 
 **Q4: What is Hybrid Cloud?**
+
 A combination of public and private cloud, offering security and scalability together.
 
 **Q5: Which cloud is best for DevOps?**
+
 AWS is most common, but Azure and GCP are also widely adopted depending on project needs.
 
 **Q6: How does cloud support CI/CD?**
+
 It provides servers, automation tools and scalability to build, test and deploy continuously.
 
 **Q7: What is the pay-as-you-use model?**
+
 Users pay only for resources consumed, reducing unnecessary infrastructure costs.
 
 **Q8: What is serverless computing?**
+
 It allows running code without managing servers (e.g., AWS Lambda).
 
 **Q9: Can DevOps exist without cloud?**
+
 Yes, but it will be slow, costly and less scalable.
 
 **Q10: What cloud skills are needed for DevOps?**
+
 AWS/Azure, Linux, Docker, Kubernetes, CI/CD, Terraform, monitoring tools.
+
+
+<details>
+<summary><strong>📋 Copy-paste version (plain text, click to expand)</strong></summary>
+
+<br>
+
+Use the copy button at the top right of the block below.
+
+```text
+
+Q1: What is Cloud Computing?
+A: Delivery of computing services over the internet with on-demand access and pay-as-you-use pricing.
+
+Q2: Why is cloud important for DevOps?
+A: It provides scalable infrastructure, automation support and CI/CD integration essential for DevOps.
+
+Q3: Difference between IaaS, PaaS and SaaS?
+A: IaaS = infrastructure, PaaS = development platform, SaaS = ready-to-use software.
+
+Q4: What is Hybrid Cloud?
+A: A combination of public and private cloud, offering security and scalability together.
+
+Q5: Which cloud is best for DevOps?
+A: AWS is most common, but Azure and GCP are also widely adopted depending on project needs.
+
+Q6: How does cloud support CI/CD?
+A: It provides servers, automation tools and scalability to build, test and deploy continuously.
+
+Q7: What is the pay-as-you-use model?
+A: Users pay only for resources consumed, reducing unnecessary infrastructure costs.
+
+Q8: What is serverless computing?
+A: It allows running code without managing servers (e.g., AWS Lambda).
+
+Q9: Can DevOps exist without cloud?
+A: Yes, but it will be slow, costly and less scalable.
+
+Q10: What cloud skills are needed for DevOps?
+A: AWS/Azure, Linux, Docker, Kubernetes, CI/CD, Terraform, monitoring tools.
+```
+
+</details>
+
 
 > **Pro Tip:** Practice these answers with real-world examples from your experience!
 
