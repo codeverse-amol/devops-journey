@@ -14,7 +14,7 @@
 
 ## Module Overview
 
-This module explains **what DevOps is, why it exists, and how its main building blocks fit together**. Each topic below matches a section of the lecture and the slide deck *"DevOps Unlocked: Code to Cloud"*.
+
 
 | # | Course topic | Section in this document |
 |---|--------------|--------------------------|
@@ -224,7 +224,7 @@ DevOps turns the straight line into a **continuous loop**. The left side is "Dev
                          & real-time insights
 ```
 
-Benefits shown in the slides:
+Benefits of the DevOps lifecycle:
 
 - **No hand-off delays** – work flows continuously between stages.
 - **Early defect detection** – automated tests find problems sooner.
